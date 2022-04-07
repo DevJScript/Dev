@@ -1,0 +1,124 @@
+html, body{margin: 0;
+         padding:0;
+         background: #e3f6f5;
+         font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    margin: 0;
+ 	background: #47479b;
+   color: #ec0084;
+    padding: 10px;
+ }
+.search{
+         border-radius: 20px;
+         outline: none;
+        border: 1px solid #e3f6f5; 
+ background-image: url();
+  background-position: 2px 5px;
+
+ background-repeat: no-repeat;
+       padding: 10px;
+}
+.icon{float: right;
+       padding: 5px;
+       border-radius: 8px;
+     position: relative;
+    
+}
+.icon::hover{background: #e3f6f5;
+             }
+#price{width: 15px;
+       border: none;
+       background: transparent;
+       color: grey;
+	      margin:0;
+	     color:#47479b;
+}
+#count, #vit, #amount, #totalbuy{color:  #47479b;}
+
+
+#anim{width: 100%;
+      height: 150px;
+      border: 1px solid #ec0084;
+     display: none;}
+#rEPt{
+
+     border-radius: 5px;
+    box-shadow: 2px 2px 2px 3px #95b2c2;
+
+}
+
+#input{
+      padding: 15px 35px;
+     border: 1px solid  #47479b;
+      border-radius: 0px 10px 10px 0px;
+
+}
+#buyT{color: #ec0084;
+}
+#buyB{width: 30vw;
+      height: 30px;
+     background: #ec0084;
+     color: #d1e0cc;
+     border: 1px solid #d1e0cc;
+     border-radius: 0px 10px 10px 0px;
+    margin-bottom: 5px;
+     }
+
+#statementJS, #tT, .rEP{color:#47479b;}
+#tpayJS{color:#ec0084;
+} //backgroundcolor
+#tT{background: white;}
+#state{margin-top: 8px;}
+
+.rEPback{background: #47479b;
+  color: #e3f6f5;
+  padding: 8px;
+  border-radius: 0px 3px 3px 0px;
+  margin-bottom: 9px;
+}
+th{text-align: center;}
+input, button{outline: none;}
+
+
+#trc{}
+#rt{font-weight: bolder;}
+h3{color: #ec0084;
+   text-align: center;
+   margin-top:5px;
+   margin-bottom:5px;
+}
+#rEPt, table {
+         
+         width: 96%;
+         margin: auto;}
+table{
+  box-shadow: 2px 2px 2px 3px #95b2c2;
+  
+  border-radius: 5px;
+}
+
+#tp{width: 50%;}
+#tc{width: 50%;}
+.coint{margin-bottom:10px;}
+a{color: #e3f6f5;
+  text-decoration: none;
+  }
+input, button , textarea{outline: none;}
+#address{color: #ec0084;}
+
+.ct{display: flex;
+   justify-content: space-evenly;}
+
+#ale{
+
+background: #e3f6f5;
+display: none;
+position: fixed;
+bottom:0;
+left:0;
+padding: 5px;
+text-align: center;
+color: #ec0084;
+width: 100%;
+}

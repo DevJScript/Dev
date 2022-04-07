@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta charset="UTF-8">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="detect.js"></script>
+    <script src="buy.js"></script>
+    <script src="mynav.js"></script>
+    <script src="search.js"></script>
+    </head>
+<body>        
+  <h2><input id="search" placeholder="search coin/token..." type="text" class="search" onkeyup="search()">
+<a href="javascript:void(0);" class="icon" onclick="myNav()">
+    <i class="fa fa-bars"></i>
+  </a></h2>
+
+ <center>
+   <p>Discount price 25% off</p>
+    <label>Current price $<input value="x" placeholder=".0000" id="price" disabled></label>
+	   <p><span>Total Supply: 10000</span></p>
+      <p>Total Sold : <span id="count">xxxxx</span>
+	Total Remain : <span id="vit"> xxxx</span></p>
+   
+<div id="rEPt">
+<label id="buyT">Buy</label><br>
+ <label id="amount">Amount</label> <br>
+    <input type="number" placeholder="Amount (0 DevCoins)" id="input">
+   <div id="state"></div>
+  <input id="buyB" type="button" onclick="state()" value="BUY">
+</div>
+</center>
+
+<h3>Other Supported Coins/Tokens</h3>
+<table class="coint">
+<tr>
+<th id="tc">Coin/Token</th><th id="tp">Price<th>
+</tr>
+<tr class="coin">
+<td>Bitcoin</td><td>$45000</td>
+</tr>
+<tr class="coin">
+<td>BTCsatoshi</td><td>$100</td>
+</tr>
+<tr class="coin">
+<td>Hi Dollar</td><td>$4</td>
+</tr>
+<tr class="coin">
+<td>Pi</td><td>$4</td>
+</tr>
+<tr class="coin">
+<td>ICP</td><td>$4</td>
+</tr>
+</table>
+<div>
+
+<small id='ale'>Buy Successful!</small>
+
+</div>
+
+<div id="mynav">
+
+<a href="javascript:void(0);" onclick="myNav()">
+<img src="angler.jpg" class="back">
+<!--
+<i class="fa fa-angle-right" aria-hidden="true"
+></a>
+-->
+</a>
+<br>
+
+<button onclick="wallet()">DxWallet</button><br>
+<span id="wlt">Balance<br>
+
+<span id="bln">000</span> DVC<br>
+</span>
+<button onclick="mining()"> Mining </button><br>
+ <dl id="mn">
+
+ <dt>Mine BTCs</dt>
+<dd>download <a class="linknav" href="https://www.btcs.love/invite/1wk8e">btcs.love</a> and start mining for free, launches June 2022.</dd>
+ <dt>Mine Hi Token</dt>
+<dd><a class="linknav" href="https://hi.com/khalip">Hi Dollar</a> already launched however have their own rules. </dd>
+</dl>
+<button onclick="about()"> About</button>
+
+<br>
+<div id="cc">
+<img id="navimg" src="k.jpg"><br>
+<label id="address">
+Memer developer</label><br>Khalifa <label id="address">Ali</label> Ahmad.
+<br>CEO : Web Development Hausa Page.
+</div>
+
+<button onclick="contact()"> Contact</button><br>
+
+<div id="ct" class="ct">
+<a class="linknav" id="call">Call</a><a class="linknav" id="sms">SMS</a><a class="linknav" id="wasap">WhatsApp</a><a class="linknav" id="email">Email</a>
+</div>
+
+<button id=""> Log in </button> - <button id=""> Sign Up </button>
+
+
+</div>
+
+<script src="change.js"></script>
+    </body>
+</html>
